@@ -1,0 +1,13 @@
+Column Name	Data Type	Description	Unit of Measurement
+Timestamp	datetime	Date and time of data logging	YYYY-MM-DD HH:MM:SS
+Microgreen_Type	string	Type of microgreen being monitored (e.g., Arugula, Basil, Sunflower)	N/A
+Growth_Stage	string	Current growth phase of the microgreens (e.g., Germination, Flowering)	N/A
+Light_Level	float32	Light intensity received by plants	µmol/m²/s (Photosynthetic Photon Flux Density - PPFD)
+Water_Level	float32	Amount of water supplied per plant	Liters per plant
+Nutrient_Level	float32	Concentration of nutrients in the growing medium	Relative scale (0.3 - 1.5)
+Temperature	float32	Air temperature in the growing environment	°C (Degrees Celsius)
+Humidity	float32	Relative humidity in the environment	% (Percentage)
+CO2_Level	float32	Carbon dioxide concentration	ppm (Parts per Million)
+pH_Level	float32	Acidity/alkalinity of soil or nutrient solution	pH Scale (5.5 - 7.5)
+Soil_Moisture	float32	Moisture level in the soil or growing medium	% (Percentage)
+Crop_Yield_Estimation	float32	Estimated weight of the microgreens per plant	grams (g)
